@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1cb313ed1353d34b8908574028ef01e
+guid: a461d15a9a8ca004199ea6844df943e2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -151,70 +151,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: terrain_atlas 1_6
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 191
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd5fe60cc744d47489d8652ea730d292
-      internalID: 895515881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: terrain_atlas 1_7
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 191
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a95a604a1231c8244a6c6eba5613c3f1
-      internalID: 1447730482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: terrain_atlas 1_10
-      rect:
-        serializedVersion: 2
-        x: 926
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acdcd26adbc644341b368f1194277467
-      internalID: 1181930643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -225,18 +162,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      terrain_atlas 1_0: 1446716137
-      terrain_atlas 1_3: -1882480286
-      terrain_atlas 1_6: 895515881
-      terrain_atlas 1_9: 1546891793
-      terrain_atlas 1_2: -747061257
-      terrain_atlas 1_10: 1181930643
-      terrain_atlas 1_5: 54154739
-      terrain_atlas 1_1: 46658988
-      terrain_atlas 1_8: -1350799892
-      terrain_atlas 1_7: 1447730482
-      terrain_atlas 1_4: 132013328
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

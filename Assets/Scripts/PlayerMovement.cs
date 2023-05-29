@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public float lastVerticalVector;
 
-    public ParticleSystem dust;
+    [SerializeField] private ParticleSystem dust;
     //References
     Rigidbody2D rb;
 
@@ -41,11 +41,22 @@ public class PlayerMovement : MonoBehaviour
         if (moveDir.x != 0)
         {
             lastHorizontalVector = moveDir.x;
+            if (!dust.isPlaying) // Instantiate dust particles if not already playing
+            {
+                dust.Play();
+            }
         }
-
-        if (moveDir.y != 0)
+        else if (moveDir.y != 0)
         {
             lastVerticalVector = moveDir.y;
+            if (!dust.isPlaying) // Instantiate dust particles if not already playing
+            {
+                dust.Play();
+            }
+        }
+        else
+        {
+            dust.Stop(); // Stop dust particles if no movement
         }
     }
 
