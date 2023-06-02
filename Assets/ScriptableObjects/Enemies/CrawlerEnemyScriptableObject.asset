@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CrawlerEnemyScriptableObject
   m_EditorClassIdentifier: 
   enemyName: Crawler
-  moveSpeed: 3
+  moveSpeed: 2
   maxHealth: 20
   damage: 15
   attackRange: 5

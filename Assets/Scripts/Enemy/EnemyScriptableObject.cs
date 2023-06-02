@@ -28,5 +28,5 @@ public class EnemyScriptableObject : ScriptableObject
     [SerializeField] public GameObject deathparticlePrefab;
 
 
-    [SerializeField] public ParticleSystem particledustPrefab;
+   
 }
